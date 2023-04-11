@@ -1,0 +1,81 @@
+{{!-- <form action="/update" method="POST">
+  <input type="hidden" name="id" value="{{user._id}}"><br><br>
+  <label for="ten">Tên:</label>
+  <input type="text" id="ten" name="ten" value="{{user.ten}}"><br><br>
+  <label for="tuoi">Tuổi:</label>
+  <input type="number" id="tuoi" name="tuoi" value="{{user.tuoi}}"><br><br>
+  <label for="diemtb">Điểm TB:</label>
+  <input type="number" id="diemtb" name="diemtb" value="{{user.diemtb}}"><br><br>
+  <label for="diachi">Địa chỉ:</label>
+  <input type="text" id="diachi" name="diachi" value="{{user.diachi}}"><br><br>
+  <button type="submit">Cập nhật</button>
+</form> --}}
+
+{{!-- <a class="btn-primary btn btn-block" href="./list">Thoát</a>
+<div class="container p-3">
+  <div class="row justify-content-around">
+    <form class="col-md-4 bg-light p-3" action="/update/:id" method="POST">
+      <h1 class="text-center text-uppercase h2">Sửa</h1>
+
+      <div class="from-group">
+        <label for="fullname">Mã sản phẩm:</label>
+        <input class="form-control" value="{{maSP}}" type="text" name="maSP" >
+      </div>
+      <div class="from-group">
+        <label for="">Tên sản phẩm</label>
+        <input class="form-control" type="text" name="tenSP" >
+      </div>
+
+      <div class="from-group">
+        <label for="fullname">Giá sản phẩm</label>
+        <input class="form-control" type="number" name="giaSP" >
+      </div>
+
+      <div class="from-group">
+        <label for="">Ảnh</label>
+        <input class="form-control" type="text" name="anh">
+      </div>
+      <div class="from-group">
+        <label for="">Màu sản phẩm</label>
+        <input class="form-control" type="text" name="mauSP">
+      </div>
+  <br>
+      <button class="btn-primary btn" type="submit">Lưu</button>
+
+    </form>
+  </div>
+</div> --}}
+
+<div class="container p-3">
+  <div class="row justify-content-around">
+    <form class="col-md-4 bg-light p-3" action="/update/:_id" method="POST">
+      <h1 class="text-center text-uppercase h2">Sửa</h1>
+
+      <div class="form-group">
+        <label for="maSP">Mã sản phẩm:</label>
+        <input class="form-control" type="text" name="maSP" id="maSP">
+      </div>
+      <div class="form-group">
+        <label for="tenSP">Tên sản phẩm</label>
+        <input class="form-control" type="text" name="tenSP" id="tenSP">
+      </div>
+
+      <div class="form-group">
+        <label for="giaSP">Giá sản phẩm</label>
+        <input class="form-control" type="number" name="giaSP" id="giaSP">
+      </div>
+
+      <div class="form-group">
+        <label for="anh">Ảnh</label>
+        <input class="form-control" type="text" name="anh" id="anh">
+      </div>
+      <div class="form-group">
+        <label for="mauSP">Màu sản phẩm</label>
+        <input class="form-control" type="text" name="mauSP" id="mauSP">
+      </div>
+      <br>
+      <button class="btn-primary btn" type="submit">Lưu</button>
+
+    </form>
+  </div>
+</div>
